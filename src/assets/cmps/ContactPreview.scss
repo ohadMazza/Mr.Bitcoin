@@ -1,0 +1,25 @@
+.contact-preview{
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+
+    .contact-preview-details{
+        margin-left: 20px;
+        padding-bottom: 20px;
+
+        h2{
+            margin:20px 0px 10px 0px;
+        }
+
+        h3{
+            font-size: 0.875rem;
+            margin:  8px 0px;
+        }
+    }
+}

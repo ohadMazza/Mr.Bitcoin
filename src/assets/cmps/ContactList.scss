@@ -1,0 +1,36 @@
+.contact-list{
+    ul {
+        justify-content: center;
+        padding:20px 0px;
+        margin: 0px 25px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 320px);
+        list-style: none;
+        gap:15px;
+
+        li{
+            position: relative;
+            color:antiquewhite;
+            align-items: center;
+            background-color: #19536c;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+            border: 2px solid white;
+            border-style: inset ;
+            border-radius: 12px;
+            
+            .actions{
+                display: flex;
+                justify-content: flex-end;
+
+                button{
+                    font-weight: 600;
+                    margin:0px 3px 2px 0px;
+                    border-radius: 0.3em;
+                } 
+            }
+        
+        }
+    }
+}
+
+

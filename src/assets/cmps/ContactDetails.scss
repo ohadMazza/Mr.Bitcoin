@@ -1,0 +1,34 @@
+.contact-details-page{
+    background: linear-gradient(to bottom right, #000000, #14485f);
+    min-height: 92vh;
+    justify-content: center;
+    display: flex;
+
+    .contact-details{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 20px;
+        background: linear-gradient(to bottom right, #14485f, #237395);
+        max-width: 500px;
+        min-width: 350px;
+        width: 100%;
+        height: fit-content;
+        border-radius: 15px;
+
+        img{
+            margin: 20px auto;
+            border-radius: 50%;
+            height: 250px;
+            width: 250px;
+        }
+
+        h2, h3{
+            text-align: center;
+            color: #f1f5f8;
+        }
+        
+        h3{
+            padding: 0em 1.25em;
+        }
+    }
+}

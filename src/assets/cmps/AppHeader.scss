@@ -1,0 +1,21 @@
+.app-header{
+    display: flex;
+    align-items: center;
+    padding-inline: 1em;
+    height:6vh ;
+    background: linear-gradient(to bottom right, #16526c, #303131);
+
+    .btc-rate{
+        margin-left: auto;
+        padding-right: 30px;
+        font-size: 1.125rem;
+        color: #f1f5f8;
+    }
+    
+    a{
+        color: #f1f5f8;
+        margin-inline-start:1em ;
+        font-size: 1.125rem;
+    }
+
+}
